@@ -2,6 +2,7 @@ project_name: Erfrp
 
 builds:
   - binary: frps
+    id: "frps"
     main: ./frps.go
     goos:
       - windows
@@ -25,6 +26,7 @@ builds:
       - -s -w
 
   - binary: frpc
+    id: "frpc"
     main: ./frpc.go
     goos:
       - windows
