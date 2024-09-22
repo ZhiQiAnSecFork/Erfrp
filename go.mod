@@ -1,6 +1,6 @@
 module Erfrp
 
-go 1.19
+go 1.23
 
 require (
 	github.com/Gogods/cobra v1.6.1
